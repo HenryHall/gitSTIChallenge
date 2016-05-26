@@ -1,0 +1,16 @@
+Body {
+  background-color: #904040;
+}
+
+table, td, tr {
+  border: 2px solid black;
+  background-color: #999999;
+}
+
+tr:first-child  {
+  font-weight: bold;
+}
+
+p {
+  font-size: 2em;
+}

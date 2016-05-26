@@ -52,4 +52,10 @@ function generateEmpArray () {
   return newEmpArray;
 }
 
+
 generateEmpArray();
+document.write("<p>Company Pay Information</p><table><tr><td>Employee Name</td><td>Earned Bonus %</td><td>Salary with Bonus</td><td>Bonus</td></tr>");
+for (var i = 0; i<employees.length; i++) {
+  document.write("<tr><td>" + newEmpArray[i][0] + "</td><td>" + newEmpArray[i][1] + "</td><td>" + newEmpArray[i][2] + "</td><td>" + newEmpArray[i][3] + "</td></tr>");
+}
+document.write("</table>")
